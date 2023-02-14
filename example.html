@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .frame {
+        width: 500px;
+        height: 400px;
+        border: 10px solid #E6E6E6;
+        margin: 50px auto;
+        position: relative;
+      }
+      .frame:before {
+        content: "";
+        display: block;
+        padding-top: 60%;
+      }
+      .content {
+        position: absolute;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        background-image: url(https://via.placeholder.com/500x400);
+        background-size: cover;
+      }
+      .header {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: bold;
+        color: #E6E6E6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="content"></div>
+      <div class="header">
+        <h1>Boda de Juan y Maria</h1>
+      </div>
+    </div>
+  </body>
+</html>
